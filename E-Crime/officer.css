@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 110vh;
+    width: 100%;
+    color: #fff;
+    background-position: center;
+    background: url(officer.jpg);
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar {
+    width: 1260px;
+    height: 75px;
+    margin: auto;
+    background-image: url(slider.jpg);
+    background-repeat: repeat;
+}
+
+.icon {
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+
+.logo {
+    color: orange;
+    font-size: 35px;
+    font-family: arial;
+    padding-left: 10px;
+    float: left;
+    padding-top: 10px;
+    transition: 0.5s ease-in-out;
+}
+
+.logo:hover {
+    color: orange;
+    text-shadow: 1px 1px 2px whitesmoke;
+    font-size: 40px;
+}
+
+.menu {
+    width: 100%;
+}
+
+ul {
+    float: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li {
+    list-style: none;
+    margin-left: 20px;
+    margin-top: 30px;
+    font-size: 16px;
+}
+
+ul li:hover {
+    text-shadow: 1px 1px 2px goldenrod;
+    font-size: 24px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.5s ease-in-out;
+}
+
+ul li a:hover {
+    color: orange;
+}
